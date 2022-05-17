@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&family=Raleway&family=Roboto:wght@700&display=swap');
+
+/*Cabeçalho*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background-color: #cdcfd6;
+  background-image: linear-gradient(
+    90deg,
+    #a2a6be 0%,
+    #888488 46%,
+    #414141 100%
+  );
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 55px; /**/
+}
+
+.instagram {
+  max-width: 50px;
+  position: absolute;
+  right: 380px;
+  bottom: 1px;
+  top: 1px;
+}
+
+.wpp {
+  max-width: 50px;
+  position: absolute;
+  right: 470px;
+  bottom: 1px;
+  top: 1px;
+}
+
+/*.email {
+  max-width: 50px;
+  position: absolute;
+  left: 2090px;
+  bottom: 1px;
+  top: 1px;
+}*/
+
+.cabecalho_menu {
+  display: flex;
+  gap: 450px;
+  position: absolute;
+  right: 400px;
+}
+
+.cabecalho_menu_item {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.conteudo_principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo_principal_foto {
+  text-align: center;
+  max-width: 600px;
+  position: absolute;
+  top: 250px;
+}
+
+.conteudo_principal_escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  position: absolute;
+  top: 400px;
+}
+
+.conteudo_principal_escrito_titulo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-size: 70px;
+  color: rgb(26, 26, 26);
+}
+
+.conteudo_principal_escrito_subtitulo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 400;
+  font-size: 35px;
+  color: black;
+}
+
+.conteudo_principal_escrito_paragrafo {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.linguagens {
+  display: flex;
+  flex-direction: row;
+  font-size: 20px;
+  left: 800px;
+}
+
+.linguagens_miniatura_html {
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  right: 1250px;
+}
+
+.linguagens_miniatura_css {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 25px;
+  right: 1000px;
+}
+
+.linguagens_miniatura_js {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 220px;
+}
+
+.linguagens_miniatura_c {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 420px;
+}
+
+.linguagens_miniatura_linux {
+  text-align: row;
+  max-width: 100px;
+  position: absolute;
+  top: 680px;
+  left: 630px;
+}
+
+.botao {
+  border: none;
+  border-radius: 4440px;
+  width: 220px;
+  height: 40px;
+  position: absolute;
+  top: 400px;
+  left: 180px;
+  background-color: #9b9fb6 0%;
+  font-size: large;
+  cursor: pointer;
+}
+
+.skills {
+  font-family: 'Ms Madi' cursive;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif font-weight 800;
+  font-weight: 300;
+  font-size: 40px;
+  top: 950px;
+  position: absolute;
+  left: 1028px;
+}
+
+@media screen and (min-width: 375px) {
+  body {
+    background-color: #000000;
+    position: absolute;
+  }
+
+  .cabecalho_menu {
+    display: flex;
+    gap: 50px;
+    position: absolute;
+    left: 180px;
+    color: white;
+    top: 80px;
+  }
+
+  .cabecalho_menu_item {
+    font-family: 'Ms Madi' cursive;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif Arial, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-size: 50px;
+    color: white;
+  }
+
+  .conteudo {
+    border-top: 0.4px solid white;
+    position: relative;
+    left: 235px;
+    top: 80px;
+  }
+
+  .conteudo_principal_foto {
+    text-align: center;
+    max-width: 500px;
+    top: 170px;
+    right: 400px;
+  }
+
+  .conteudo_principal_escrito {
+    gap: 35px;
+    position: relative;
+    top: 800px;
+    right: 80px;
+    color: white;
+    font-size: 35px;
+  }
+
+  .conteudo_principal_escrito_titulo {
+    font-size: 75px;
+    color: white;
+    font-weight: 50px;
+    position: relative;
+  }
+
+  .conteudo_principal_escrito_subtitulo {
+    font-weight: 100;
+    font-size: 48px;
+    color: white;
+    position: relative;
+  }
+
+  .linguagens_miniatura_html {
+    top: 470px;
+    right: 140px;
+    position: relative;
+  }
+
+  .linguagens_miniatura_css {
+    top: 470px;
+    left: 10px;
+    position: relative;
+  }
+
+  .linguagens_miniatura_js {
+    top: 470px;
+    left: 160px;
+    position: relative;
+  }
+
+  .linguagens_miniatura_c {
+    top: 470px;
+    left: 300px;
+    position: relative;
+  }
+
+  .linguagens_miniatura_linux {
+    top: 470px;
+    left: 450px;
+    position: relative;
+  }
+}
+  .skills {
+    top: 1050px;
+    font-size: 55px;
+    color: white;
+    position: relative;
+    left: 400px;
+    
+  }
+
+  .botao {
+    position: absolute;
+    top: 1990px;
+    left: 310px;
+  }
